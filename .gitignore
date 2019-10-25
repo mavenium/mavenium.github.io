@@ -73,4 +73,4 @@ fabric.properties
 .idea/mavenium.github.io.iml
 .idea/misc.xml
 .idea/modules.xml
-assets/
+.idea/vcs.xml
