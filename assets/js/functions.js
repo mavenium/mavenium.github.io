@@ -1,7 +1,10 @@
 $(document).ready(function () {
 
+    // Add tooltip
     $('[data-toggle="tooltip"]').tooltip();
+    // Add tooltip
 
+    // Portfolio filter
     $(".filter-button").click(function(){
         var value = $(this).attr('data-filter');
 
@@ -18,4 +21,5 @@ $(document).ready(function () {
     } else {
         $(this).addClass("active");
     }
+    // Portfolio filter
 });
