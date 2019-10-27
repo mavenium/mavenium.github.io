@@ -50,11 +50,11 @@
 
                 <div class="card-body" id="cv_blog_btns">
                     <div class="btn-group" role="group" aria-label="Basic example">
-                        <a href="#" class="btn btn-primary" data-toggle="tooltip" data-placement="top" title="Download Cv">
+                        <a href="#" class="btn btn-info" data-toggle="tooltip" data-placement="top" title="Download CV">
                             <i class="fa fa-download mr-1" aria-hidden="true"></i>
-                            Get Cv
+                            CV
                         </a>
-                        <a href="http://mavenium.blog.ir" class="btn btn-info" data-toggle="tooltip" data-placement="top" title="Persian Blog">
+                        <a href="http://mavenium.blog.ir" class="btn btn-primary" data-toggle="tooltip" data-placement="top" title="Persian Blog">
                             <i class="fab fa-blogger-b mr-1" aria-hidden="true"></i>
                             Blog
                         </a>
@@ -216,6 +216,7 @@
                 </div>
                 <!-- /pills-home -->
 
+                <!-- pills-resume -->
                 <div class="card tab-pane fade" id="pills-resume" role="tabpanel" aria-labelledby="pills-resume-tab">
 
                     <div class="card-header font-weight-bold" id="resume">Resume</div>
@@ -307,8 +308,79 @@
                     </div>
 
                 </div>
-                <div class="tab-pane jumbotron fade" id="pills-portfolio" role="tabpanel" aria-labelledby="pills-portfolio-tab">Portfolio</div>
-                <div class="tab-pane jumbotron fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">Contact</div>
+                <!-- /pills-resume -->
+
+                <!-- pills-portfolio -->
+                <div class="card tab-pane fade" id="pills-portfolio" role="tabpanel" aria-labelledby="pills-portfolio-tab">
+
+                    <div class="card-header font-weight-bold" id="portfolio">Portfolio</div>
+                    <div class="card-body">
+
+                        <!-- filtering btn-group -->
+                        <div class="row mb-4" id="filter_btn_group">
+                            <div class="col-md-12 d-flex justify-content-center">
+                                <div class="btn-group" role="group" aria-label="Data filtering">
+                                    <button type="button" class="btn btn-secondary filter-button" data-filter="all">All</button>
+                                    <button type="button" class="btn btn-secondary filter-button" data-filter="django">Django</button>
+                                    <button type="button" class="btn btn-secondary filter-button" data-filter="wordpress">Wordpress</button>
+                                    <button type="button" class="btn btn-secondary filter-button" data-filter="android">Android</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /filtering btn-group -->
+
+                        <div class="row">
+
+                            <!-- portfolio item -->
+                            <div class="portfolio_item col-lg-4 col-md-4 col-sm-4 col-xs-6 filter android">
+                                <div class="card">
+                                    <img src="http://fakeimg.pl/241x241/" class="card-img-top" alt="User Profile Card" title="User Profile Card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">User Profile Card</h5>
+                                        <p class="card-text">
+                                            Material User Profile Card -
+                                        </p>
+                                        <a href="https://github.com/mavenium/User.Profile.Card" class="btn btn-primary btn-block" title="User Profile Card">
+                                            Repository
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /portfolio item -->
+
+                            <!-- portfolio item -->
+                            <div class="portfolio_item col-lg-4 col-md-4 col-sm-4 col-xs-6 filter android">
+                                <div class="card">
+                                    <img src="http://fakeimg.pl/241x241/" class="card-img-top" alt="Dog" title="Dog">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Dog</h5>
+                                        <p class="card-text">
+                                            Material User Profile Card -
+                                        </p>
+                                        <a href="https://github.com/mavenium/Dog" class="btn btn-primary btn-block" title="Dog">
+                                            Repository
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /portfolio item -->
+
+                        </div>
+
+                    </div>
+                </div>
+                <!-- /pills-portfolio -->
+
+                <!-- pills-contact -->
+                <div class="card tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+
+                    <div class="card-header font-weight-bold" id="contact">Contact</div>
+                    <div class="card-body">
+
+                    </div>
+                </div>
+                <!-- /pills-contact -->
+
             </div>
             <!-- /contents -->
 
