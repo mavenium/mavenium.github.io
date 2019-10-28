@@ -158,8 +158,8 @@ ul.timeline{
 
 @media (min-width: 320px) and (max-width: 480px) {
     #wrapper {
-        margin-top: 15px;
-        margin-bottom: 15px;
+        margin-top: 15px !important;
+        margin-bottom: 15px !important;
     }
 
     .nav-link {
