@@ -100,10 +100,9 @@ ul.timeline{
 
 .timeline li:first-child svg{
     float: left;
-    margin-left: -30px;
     padding: 18px 16px;
     border-radius: 30px;
-    margin: -7px -45px;
+    margin: -7px -45px -7px -30px;
     color: #fff;
     background: #2c3e50 !important;
     width: 53px;
