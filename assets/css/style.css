@@ -155,3 +155,32 @@ ul.timeline{
     padding: 0.6rem;
 }
 /* Portfolio */
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .nav-link {
+        padding: 0.6rem 0.5rem;
+        font-size: 14px;
+    }
+
+    #navigation .nav-fill .nav-item {
+        line-height: 20px;
+    }
+
+    #back_end_section {
+        margin-top: 15px !important;
+    }
+
+    #filter_btn_group .btn {
+        font-size: 14px;
+    }
+
+    .portfolio_item .card-icon {
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    #pills-contact .btn-group-lg > .btn {
+        padding: 0.1rem 0.15rem;
+        font-size: 1rem;
+    }
+}
