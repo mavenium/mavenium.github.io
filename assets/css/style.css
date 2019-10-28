@@ -185,8 +185,10 @@ ul.timeline{
     }
 
     .portfolio_item .card-icon {
-        border-top-left-radius: 0.25rem !important;
-        border-top-right-radius: 0.25rem !important;
-        border-bottom-left-radius: 0 !important;
+        /*border-top-left-radius: 0.25rem !important;*/
+        /*border-top-right-radius: 0.25rem !important;*/
+        /*border-bottom-left-radius: 0 !important;*/
+        /*border-bottom-right-radius: 0 !important;*/
+        border-radius: 0.25rem 0.25rem 0 0 !important;
     }
 }
