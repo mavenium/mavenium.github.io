@@ -176,6 +176,10 @@ ul.timeline{
         line-height: 20px;
     }
 
+    #my_informations #avatar {
+        height: 288px;
+    }
+
     #back_end_section {
         margin-top: 15px !important;
     }
