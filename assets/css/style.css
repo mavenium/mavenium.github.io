@@ -33,7 +33,9 @@ a {
 
 #my_informations #avatar {
     display: block;
-    height: 250px;
+    border: 0;
+    padding: 0;
+    border-radius: 0;
 }
 
 #my_informations .btn-group {
@@ -174,10 +176,6 @@ ul.timeline{
 
     #navigation .nav-fill .nav-item {
         line-height: 20px;
-    }
-
-    #my_informations #avatar {
-        height: 298px;
     }
 
     #back_end_section {
